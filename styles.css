@@ -1,0 +1,10 @@
+.header{
+    height: 700px;
+    background: url(images/indexBack.jpg);
+    background-size: cover;
+}
+
+body {
+    background: rgb(219,238,242);
+    margin: 0;
+}
