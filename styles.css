@@ -1,10 +1,69 @@
-.header{
-    height: 700px;
-    background: url(images/indexBack.jpg);
-    background-size: cover;
+body {
+    background: deepskyblue;
+    margin: 0;
 }
 
-body {
-    background: rgb(219,238,242);
-    margin: 0;
+.header_container {
+    height: 700px;
+    width: 1170px;
+    background: url(images/indexBack.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    background: orangered;
+}
+
+.logo {
+    display: block;
+    background: url("images/surfhouseLogo.png") no-repeat;
+    width: 125px;
+    height: 111px;
+    position: absolute;
+    left: 65px;
+    top: 25px;
+}
+
+.header_socials {
+    position: absolute;
+    top: 50px;
+    right: 65px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.body_main_container{
+    width: 1170px;
+    background: cornflowerblue;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.body_left_container {
+    background: greenyellow;
+    float: left;
+    width: 200px;
+    margin: 0 0 0 30px;
+}
+
+.body_right_container {
+    background: forestgreen;
+    float: right;
+    width: 870px;
+    margin: 50px 50px 50px 0;
+}
+
+
+.footer {
+    background: dimgrey;
+}
+.footer_container {
+    width: 1170px;
+    min-height: 80px;
+    background: grey;
+    margin: 0 auto;
 }
